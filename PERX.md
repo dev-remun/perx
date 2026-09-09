@@ -31,3 +31,8 @@ perx
 * `perx` - the executable file for `main.c`
 * `perx_modules.h` - a header file that contains all the function prototypes for perx
 * `repl.c` - an implementation of the read-evaluate-print-loop function defined in `perx_modules.h`
+
+### How to test/run perx
+1. `cd src`
+2. `gcc main.c repl.c -o perx`
+3. `./perx` to run the shell or `./perx < _test_<testcase>.txt` to run a test case
